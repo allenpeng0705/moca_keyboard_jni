@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+##
+## Keyboard and language databases configure file.  This file map keyboard and laguage IDs to the actual
+## physical APPLICATION data path
+
+##
+## Keyboard database mapping. Although keyboard datatase ID can be formated any form as long as the ID
+## matches the ID defined within the keyboard file. However for easy understanding and having a standard, we compose
+## the keyboard ID as follow;
+## YYZZ - two bytes hex digits encoding for keyboard databases
+## YY - one byte defines the keyboard layout
+##	06 - Phonepad (12-keys)
+##	07 - Qwertz (use by View when current locale is German)
+##	08 - Azerty (use by View when current locale is French)
+##	09 - Qwerty
+##	0A - Reduced qwerty 
+##	0B - Reduced azerty
+##	0C - Reduced qwertz
+##
+## ZZ - one byte define language ID
+##	FF - indicates language independent, meaning can be use as a default keyboard database
+## Example:
+##	0x09FF - Language independent qwerty keyboard database 
+##	0x0919 - Russian qwerty keyboard database
+##	0x09FF - French qwerty keyboard
+##	0x08FF - French azerty keyboard
+##  0x0BFF - French reduced azerty keyboard
+##  0x07FF - German Qwertz
+##  0x0CFF - German reduced Qwertz keyboard
+-->
+
+<database_config>
+	<!--
+	# Regional qwerty keyboard database that is use by most alphabetic languages. 
+ 	# This is the default qwerty keyboard database use if we could not find a match ID/keyboard database file
+	-->
+	<kdb>
+		<file id="0x09FF" name="qwerty.english.center.txt" />
+		<file id="0x07FF" name="qwertz.german.center.txt" />
+		<file id="0x08FF" name="azerty.french.center.txt" />
+		<file id="0x06FF" name="keypad.english.txt" />
+		<file id="0x0A04" name="ZHhpd_pinyin_bpmf_stroke_cangjie.txt" />
+		<file id="0x0E04" name="zhsqr_bpmf.xml"/>
+
+	</kdb>
+
+	<!--
+	## Language datbases mapping. Two bytes hex digits encoding
+	-->
+	<ldb>
+		<file id="0x0109" name="ENubUN_xt9_2.ldb" />
+		<file id="0x00E1" name="ZHsbUNps_GB2312_xt9.ldb" />		
+		<file id="0x05E1" name="ZHTrace_simp_GB2312_pinyin.ldb"/>
+		<file id="0x05E0" name="ZHTrace_trad_Big5_pinyin.ldb"/>
+		<file id="0x06E0" name="ZHTrace_trad_Big5_BPMF.ldb"/>
+		<file id="0x00E0" name="ZHtbUNps_Big5_bpmf_pinyin_CJ_xt9.ldb" />
+	</ldb>
+
+	<!--
+	##
+	## Manufacturer Database - a supplementary word list that may be added by OEMs.
+	## If it exists, xt9 will read and supply the words alongside LDB words in the
+	## selection list.
+	##
+	## Format: UTF8 text, line delimited (*NIX line breaks)
+	-->
+	<mdb>
+		<file id="0x0109" name="EN.txt" />
+	</mdb>
+
+	<!--
+	##
+	## User Dictionary. Words are added user dictionary if they are not in our LDB nor MDB.  
+	## File is created at run time.
+	## 
+	-->
+	<udb>
+		<file id="0x00FF" name="udb.bin" />
+		<file id="0x00E0" name="chinese_trad_udb.bin" />
+		<file id="0x00E1" name="chinese_simp_udb.bin" />
+	</udb>
+
+	<!--
+	##
+	## Auto-substibution database.  Create at run time.
+	-->
+	<asdb>
+		<file id="0x00FF" name="asdb.bin" />
+	</asdb>
+
+	<!--
+	##
+	## Cdb
+	-->
+	<cdb>
+		<file id="0x00FF" name="cdb.bin" />
+	</cdb>
+
+	<!--
+		Decuma hwr language databases	
+	-->
+	<hwr_dic>
+	<!-- If hwr dictionary is not specified, we'll use XT9 LDB and convert to T9Write dictionary at runtime
+		<file id="0x0109" name="english_xt9_le.dat" />
+		<file id="0x01FF" name="english_xt9_le.dat" />
+	-->
+	</hwr_dic>
+
+	<!--
+		Decuma hwr template databases	
+	-->
+	<hwr_db_template>
+		<file id="0x0109" name="database_le.dat" />
+		<file id="0x01FF" name="database_le.dat" />
+		<file id ="0x00E1" name="cjk_S_mkt_std_le.hdb" />
+		<file id ="0x00E0" name="cjk_T_std_std_le.hdb" />
+	</hwr_db_template>
+
+</database_config>
+
+
+

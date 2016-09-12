@@ -1,0 +1,1 @@
+#define CJKLIB_VERSION_STR "CJKLIB 4.2.69.1"

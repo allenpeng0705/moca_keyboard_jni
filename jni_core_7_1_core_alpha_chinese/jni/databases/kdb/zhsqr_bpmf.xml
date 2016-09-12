@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Generated - For windemo purpose only - Do NOT use as template, example or anything...!!! -->
+
+<keyboard
+  primaryId="0x04"
+  secondaryId="0x0E"
+  keyWidth="10.0%"
+  keyHeight="20.0%"
+  defaultLayoutWidth="320"
+  defaultLayoutHeight="225"
+  addAltChars="false"
+  >
+
+  <area conditionValue="0">
+
+    <key
+      keyLabel="ㄅ"
+      keyType="regional"
+      keyLeft="0.0%"
+      keyTop="0.0%"
+      keyCodes="0x3105"
+    />
+
+    <key
+      keyLabel="ㄉ"
+      keyType="regional"
+      keyLeft="10.0%"
+      keyTop="0.0%"
+      keyCodes="0x3109"
+    />
+
+    <key
+      keyLabel="ㄍ"
+      keyType="regional"
+      keyLeft="20.0%"
+      keyTop="0.0%"
+      keyCodes="0x310D"
+    />
+
+    <key
+      keyLabel="ㄐ"
+      keyType="regional"
+      keyLeft="30.0%"
+      keyTop="0.0%"
+      keyCodes="0x3110"
+    />
+
+    <key
+      keyLabel="ㄓ"
+      keyType="regional"
+      keyLeft="40.0%"
+      keyTop="0.0%"
+      keyCodes="0x3113"
+    />
+
+    <key
+      keyLabel="ㄗ"
+      keyType="regional"
+      keyLeft="50.0%"
+      keyTop="0.0%"
+      keyCodes="0x3117"
+    />
+
+    <key
+      keyLabel="ㄦ"
+      keyType="regional"
+      keyLeft="60.0%"
+      keyTop="0.0%"
+      keyCodes="0x3126"
+    />
+
+    <key
+      keyLabel="ㄚ"
+      keyType="regional"
+      keyLeft="70.0%"
+      keyTop="0.0%"
+      keyCodes="0x311A"
+    />
+
+    <key
+      keyLabel="ㄞ"
+      keyType="regional"
+      keyLeft="80.0%"
+      keyTop="0.0%"
+      keyCodes="0x311E"
+    />
+
+    <key
+      keyLabel="ㄢ"
+      keyType="regional"
+      keyLeft="90.0%"
+      keyTop="0.0%"
+      keyCodes="0x3122"
+    />
+
+    <key
+      keyLabel="ㄆ"
+      keyType="regional"
+      keyLeft="0.0%"
+      keyTop="20.0%"
+      keyCodes="0x3106"
+    />
+
+    <key
+      keyLabel="ㄊ"
+      keyType="regional"
+      keyLeft="10.0%"
+      keyTop="20.0%"
+      keyCodes="0x310A"
+    />
+
+    <key
+      keyLabel="ㄎ"
+      keyType="regional"
+      keyLeft="20.0%"
+      keyTop="20.0%"
+      keyCodes="0x310E"
+    />
+
+    <key
+      keyLabel="ㄑ"
+      keyType="regional"
+      keyLeft="30.0%"
+      keyTop="20.0%"
+      keyCodes="0x3111"
+    />
+
+    <key
+      keyLabel="ㄔ"
+      keyType="regional"
+      keyLeft="40.0%"
+      keyTop="20.0%"
+      keyCodes="0x3114"
+    />
+
+    <key
+      keyLabel="ㄘ"
+      keyType="regional"
+      keyLeft="50.0%"
+      keyTop="20.0%"
+      keyCodes="0x3118"
+    />
+
+    <key
+      keyLabel="ㄧ"
+      keyType="regional"
+      keyLeft="60.0%"
+      keyTop="20.0%"
+      keyCodes="0x3127"
+    />
+
+    <key
+      keyLabel="ㄛ"
+      keyType="regional"
+      keyLeft="70.0%"
+      keyTop="20.0%"
+      keyCodes="0x311B"
+    />
+
+    <key
+      keyLabel="ㄟ"
+      keyType="regional"
+      keyLeft="80.0%"
+      keyTop="20.0%"
+      keyCodes="0x311F"
+    />
+
+    <key
+      keyLabel="ㄣ"
+      keyType="regional"
+      keyLeft="90.0%"
+      keyTop="20.0%"
+      keyCodes="0x3123"
+    />
+
+    <key
+      keyLabel="ㄇ"
+      keyType="regional"
+      keyLeft="0.0%"
+      keyTop="40.0%"
+      keyCodes="0x3107"
+    />
+
+    <key
+      keyLabel="ㄋ"
+      keyType="regional"
+      keyLeft="10.0%"
+      keyTop="40.0%"
+      keyCodes="0x310B"
+    />
+
+    <key
+      keyLabel="ㄏ"
+      keyType="regional"
+      keyLeft="20.0%"
+      keyTop="40.0%"
+      keyCodes="0x310F"
+    />
+
+    <key
+      keyLabel="ㄒ"
+      keyType="regional"
+      keyLeft="30.0%"
+      keyTop="40.0%"
+      keyCodes="0x3112"
+    />
+
+    <key
+      keyLabel="ㄕ"
+      keyType="regional"
+      keyLeft="40.0%"
+      keyTop="40.0%"
+      keyCodes="0x3115"
+    />
+
+    <key
+      keyLabel="ㄙ"
+      keyType="regional"
+      keyLeft="50.0%"
+      keyTop="40.0%"
+      keyCodes="0x3119"
+    />
+
+    <key
+      keyLabel="ㄨ"
+      keyType="regional"
+      keyLeft="60.0%"
+      keyTop="40.0%"
+      keyCodes="0x3128"
+    />
+
+    <key
+      keyLabel="ㄜ"
+      keyType="regional"
+      keyLeft="70.0%"
+      keyTop="40.0%"
+      keyCodes="0x311C"
+    />
+
+    <key
+      keyLabel="ㄠ"
+      keyType="regional"
+      keyLeft="80.0%"
+      keyTop="40.0%"
+      keyCodes="0x3120"
+    />
+
+    <key
+      keyLabel="ㄤ"
+      keyType="regional"
+      keyLeft="90.0%"
+      keyTop="40.0%"
+      keyCodes="0x3124"
+    />
+
+    <key
+      keyLabel="ㄈ"
+      keyType="regional"
+      keyLeft="15.0%"
+      keyTop="60.0%"
+      keyCodes="0x3108"
+    />
+
+    <key
+      keyLabel="ㄌ"
+      keyType="regional"
+      keyLeft="25.0%"
+      keyTop="60.0%"
+      keyCodes="0x310C"
+    />
+
+    <key
+      keyLabel="ㄖ"
+      keyType="regional"
+      keyLeft="35.0%"
+      keyTop="60.0%"
+      keyCodes="0x3116"
+    />
+
+    <key
+      keyLabel="ㄩ"
+      keyType="regional"
+      keyLeft="45.0%"
+      keyTop="60.0%"
+      keyCodes="0x3129"
+    />
+
+    <key
+      keyLabel="ㄝ"
+      keyType="regional"
+      keyLeft="55.0%"
+      keyTop="60.0%"
+      keyCodes="0x311D"
+    />
+
+    <key
+      keyLabel="ㄡ"
+      keyType="regional"
+      keyLeft="65.0%"
+      keyTop="60.0%"
+      keyCodes="0x3121"
+    />
+
+    <key
+      keyLabel="ㄥ"
+      keyType="regional"
+      keyLeft="75.0%"
+      keyTop="60.0%"
+      keyCodes="0x3125"
+    />
+
+  </area>
+</keyboard>
